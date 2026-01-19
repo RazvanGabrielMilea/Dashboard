@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual env
+.venv/
+venv/
+ENV/
+env/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Data (do NOT commit datasets)
+data/*.parquet
+data/*.csv
+data/*.zip
+data/*.rar
+data/*.gz
+data/*.7z
+data/*.pkl
+data/*.joblib
+
+# ML outputs
+assets/ml/*.joblib
+assets/ml/*.pkl
+
+# Logs
+*.log
